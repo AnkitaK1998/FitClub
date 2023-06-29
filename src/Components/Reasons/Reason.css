@@ -76,3 +76,30 @@
 .partners > img {
   width: 2.5rem;
 }
+@media screen and (max-width: 768px) {
+  .reasons {
+    flex-direction: column;
+  }
+  .left-r {
+    grid-auto-rows: auto;
+    overflow: hidden;
+  }
+  .left-r > :nth-child(1) {
+    height: 17rem;
+    width: 7rem;
+  }
+  .left-r > :nth-child(2) {
+    height: 8rem;
+    width: 15rem;
+  }
+  .left-r > :nth-child(3) {
+    width: 10rem;
+        height: 8rem;
+
+    
+  }
+  .left-r > :nth-child(4) {
+    height: 7rem;
+    width: 6rem;
+  }
+}

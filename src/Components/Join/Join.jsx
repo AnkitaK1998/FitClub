@@ -4,12 +4,13 @@ import "./Join.css";
 const Join = () => {
   const form = useRef();
   const sendEmail = (e) => {
+    console.log("hi");
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_9xbjmob",
-        "template_2ldo2k5",
+        "service_02cgcyx",
+        "template_coyofhl",
         form.current,
         "hC98VmUZKg5fUgtQh"
       )
