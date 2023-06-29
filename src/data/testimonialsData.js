@@ -12,13 +12,13 @@ export const testimonialsData = [
   },
   {
     image: image2,
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint ',
+    review: 'This gym has the best energy, staff, and feel. Everything is so clean, every trainer closely watches and corrects everyone’s form, and a DJ on Saturday. Keep doing exactly what you are doing. ',
     name: 'JOHN KEVIN',
-    status: 'COACH'
+    status: 'Engineer'
   },
   {
     image : image3,
-    review:' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem',
+    review:'Excellent personal training. Trainers who really care and go above and beyond to help you achieve your goals. Small and private gym that feels more personal. Highly recommended!',
     name: 'FRANKLIN',
     status: "CUSTOMER"
   }
